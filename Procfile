@@ -1,0 +1,1 @@
+web: node --experiemental-modules backend/server.js
