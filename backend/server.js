@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Kipper', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Kippermongodb+srv://Kipper:anemluke13@cluster0.e1s6j.mongodb.net/Kipper?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

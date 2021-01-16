@@ -16,5 +16,5 @@ export default function AdminRoute({ component: Component, ...rest }) {
         )
       }
     ></Route>
-  );
-}
+  }
+);
