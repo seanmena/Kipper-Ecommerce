@@ -18,7 +18,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/Kipper', {
   useUnifiedTopology: true,
   useCreateIndex: true,
 });
-app.use('/api/uploads', uploadRouter);
+
+app.use('/api/uploads', uploadRouter);      
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
 app.use('/api/orders', orderRouter);

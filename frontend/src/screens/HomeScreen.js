@@ -5,7 +5,6 @@ import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { useDispatch, useSelector } from 'react-redux';
 import { listProducts } from '../actions/productActions';
-import { listTopSellers } from '../actions/userActions';
 
 export default function HomeScreen() {
   const dispatch = useDispatch();
@@ -14,7 +13,6 @@ export default function HomeScreen() {
 
   useEffect(() => {
     dispatch(listProducts({}));
-    dispatch(listTopSellers());
   }, [dispatch]);
   return (
     <div className="homeObjects">

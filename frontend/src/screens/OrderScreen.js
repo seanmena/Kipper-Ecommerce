@@ -76,7 +76,7 @@ export default function OrderScreen(props) {
   ) : error ? (
     <MessageBox variant="danger">{error}</MessageBox>
   ) : (
-    <div>
+    <div className="default-container">
       <h1>Order {order._id}</h1>
       <div className="row top">
         <div className="col-2">
@@ -96,7 +96,7 @@ export default function OrderScreen(props) {
                     Delivered at {order.deliveredAt}
                   </MessageBox>
                 ) : (
-                  <MessageBox variant="danger">Not Delivered</MessageBox>
+                  <MessageBox variant="danger">Not Sent</MessageBox>
                 )}
               </div>
             </li>

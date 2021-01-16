@@ -27,7 +27,7 @@ export default function CartScreen(props) {
     props.history.push('/signin?redirect=shipping');
   };
   return (
-    <div className="row top">
+    <div className="row top default-container">
       <div className="col-2">
         <h1>Shopping Cart</h1>
         {error && <MessageBox variant="danger">{error}</MessageBox>}
@@ -68,7 +68,7 @@ export default function CartScreen(props) {
                   </div>
                   <div>${item.price}</div>
                   <div>
-                    <button
+                    <button className= "checkout-button"
                       type="button"
                       onClick={() => removeFromCartHandler(item.product)}
                     >
