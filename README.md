@@ -2,7 +2,7 @@
 Myself
 
 ## Description
-Ecommerse website built with react redux. Full MERN stack. log in to admin@admin.com // 1234 to initalize db.
+Ecommerse website built with react redux. Full MERN stack. log in to admin@example.com // 1234 to initalize db.
 
 ## Deployed
 https://kipper-snack-app.herokuapp.com/
