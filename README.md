@@ -8,7 +8,9 @@ Ecommerse website built with react redux. Full MERN stack. log in to admin@examp
 
 "https://www.youtube.com/watch?v=uzT2DB4h2HA"
 
-## Deployed
+## Deployed 
+
+(mongo cluster no longer active, will be deployed elsewhere)
 https://kipper-snack-app.herokuapp.com/
 
 
